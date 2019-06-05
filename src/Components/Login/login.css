@@ -1,0 +1,57 @@
+.login{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.login .loginHeader{
+    width: 100%;
+    height: 22%;
+}
+.loginText{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginText p{
+    height: 100%;
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    display: flex;
+    align-items: center;
+}
+.lunBoTu{
+    width: 100%;
+    height: 70%;
+    background: white;
+}
+.lunBoTu img{
+    width: 100%;
+    height: 100%;
+}
+.login .loginContent{
+    width: 100%;
+    height: 70%;
+    background: white;
+    padding:15px;
+    box-sizing: border-box;
+}
+.login .loginContent input{
+    width: 100%;
+    height: 44px;
+    margin-bottom:30px;
+}
+.login .loginFoot{
+    width: 100%;
+    height: 8%;
+    background: lightcoral;
+    display: flex;
+}

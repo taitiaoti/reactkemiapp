@@ -1,0 +1,71 @@
+.games{
+    width: 100%;
+    height: 100%;
+}
+.contentTop{
+    width: 100%;
+    height: 15%;
+    background: red;
+}
+.contentTop img{
+    width: 100%;
+    height: 100%;
+}
+.contentGames{
+    width: 100%;
+    height: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.contentGames ul{
+    width: 100%;
+    height: 100%;
+}
+.contentGames ul li{
+    width: 50%;
+    height: 64px;
+    border-bottom: 1px solid lightgray;
+}
+.contentGames ul li a{
+    width: 100%;
+    text-decoration: none;
+    padding: 5px 0;
+    box-sizing: border-box;
+    display: flex;
+}
+.gameImg{
+    width: 52px;
+    height: 52px;
+}
+.gameContent{
+    margin-left:20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.contentBtm{
+    width: 100%;
+    height: 15%;
+    color: gray;
+    background: rgb(238, 237, 237);
+}
+.category{
+    width: 100%;
+    height: 60%;
+    padding: 0 50px;
+    box-sizing: border-box;
+    display: flex;
+}
+.category span{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
