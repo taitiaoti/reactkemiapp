@@ -54,7 +54,7 @@ class Home extends React.Component{
             </div>
             {
                 login.map((item,index)=>{
-                    console.log(item)
+                    // console.log(item)
                     return <RouteWithSubRoute key={item.path} {...item}/>
                 })
             }

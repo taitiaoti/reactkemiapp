@@ -45,18 +45,26 @@ class Register extends React.Component{
         // console.log(apis)
         // console.log(axios())
         axios.post(url+apis.register,this.state).then((resp)=>{
-            console.log(resp)
+            // console.log(resp)
+            if(resp.data.success){
+                alert(resp.data.message)
+                this.out();
+            }else{
+                alert(resp.data.message)
+            }
         })
+    }
+    out=()=>{
+        // console.log(this.props)
+        this.props.history.push('/login')
     }
     render(){
         return(<div className='register'>
             <div className='registerHeader'>
                 <div className='registerText'>
-                    <p>
-                        <Link to='/Home'>
-                            <Icon type="left"/>
-                            <span>返回</span>
-                        </Link>
+                    <p onClick={this.out}>
+                        <Icon type="left"/>
+                        <span>返回</span>
                     </p>
                     <h2 style={{color:'white'}}>注 册</h2>
                 </div>

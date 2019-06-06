@@ -13,23 +13,27 @@
 }
 .contentGames{
     width: 100%;
-    height: 70%;
+    /* height: 70%; */
+    background: white;
     padding: 10px;
     box-sizing: border-box;
 }
 .contentGames ul{
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .contentGames ul li{
     width: 50%;
-    height: 64px;
+    height: 84px;
     border-bottom: 1px solid lightgray;
 }
 .contentGames ul li a{
     width: 100%;
     text-decoration: none;
-    padding: 5px 0;
+    padding: 15px 0;
     box-sizing: border-box;
     display: flex;
 }

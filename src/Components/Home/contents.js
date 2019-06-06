@@ -11,7 +11,7 @@ class Content extends React.Component{
         }
     }
     render(){
-        console.log(games)
+        // console.log(games)
         return (<Router>
             <div className='games'>
                 <div className='contentTop'>
